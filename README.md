@@ -1,6 +1,6 @@
 # General
-![github_actions_gtest_example-Release](https://github.com/bastianhjaeger/github_actions_gtest_example/workflows/github_actions_gtest_example-Release/badge.svg?branch=master)
-![github_actions_gtest_example-Debug](https://github.com/bastianhjaeger/github_actions_gtest_example/workflows/github_actions_gtest_example-Debug/badge.svg?branch=master)
+![GTest_Github_Example-Release](https://github.com/bastianhjaeger/GTest_Github_Example/workflows/GTest_Github_Example-Release/badge.svg?branch=master)
+![GTest_Github_Example-Debug](https://github.com/bastianhjaeger/GTest_Github_Example/workflows/GTest_Github_Example-Debug/badge.svg?branch=master)
 
 Example on how to integrate gtest test into [github actions](https://github.com/features/actions). 
 
@@ -35,7 +35,7 @@ jobs:
     - name: make
       run: cd build && make
     - name: Run Test
-      run: /home/runner/work/github_actions_gtest_example/github_actions_gtest_example/build/test/github_actions_gtest_example.test
+      run: /home/runner/work/GTest_Github_Example/GTest_Github_Example/build/test/GTest_Github_Example.test
 ```
 
 The important part is the *"Install gtest manually"* section. This is the plain and simple way to add it.
@@ -53,8 +53,8 @@ After some time (depending on you project and test complexity) you see the resul
 
 # Build local
 ```bash
-git clone git@github.com:bastianhjaeger/github_actions_gtest_example.git
-cd github_actions_gtest_example
+git clone https://github.com/prashantpateldixoninfo/GTest_Github_Example.git
+cd GTest_Github_Example
 mkdir build && cd build
 cmake -DCMAKE_BUILD_TYPE=Release ..
 make -j8
