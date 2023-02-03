@@ -1,4 +1,4 @@
-name: github_actions_gtest_example-Debug
+name: GTest_Github_Example-Debug
 
 on:
   push:
