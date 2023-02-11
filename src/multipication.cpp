@@ -2,8 +2,8 @@
 
 namespace CalculatorNamespece
 {
-    int add(int _first, int _second)
+    int multi(int _first, int _second)
     {
-	return _first + _second;
+	return _first * _second;
     }
 }

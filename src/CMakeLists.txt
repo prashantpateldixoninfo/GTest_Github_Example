@@ -1,6 +1,6 @@
 set(header_path "${${PROJECT_NAME}_SOURCE_DIR}/include")
 set(header ${header_path}/${PROJECT_NAME}.h)
-set(src addition.cpp)
+set(src addition.cpp substraction.cpp multipication.cpp division.cpp)
 
 
 add_library(${PROJECT_NAME} SHARED
