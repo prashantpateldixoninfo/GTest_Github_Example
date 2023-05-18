@@ -1,6 +1,5 @@
 #include<iostream>
 
-
 namespace CalculatorNamespece
 {
     enum MyResult
